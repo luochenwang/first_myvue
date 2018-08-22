@@ -5,7 +5,9 @@ import store from './store/index'
 import post from './utils/asyncRequest'
 
 Vue.config.productionTip = false;
+// vuex
 Vue.prototype.store = store;
+// 接口初始化
 Vue.prototype.$post = post;
 
 // 配置 后端统一的请求路径
